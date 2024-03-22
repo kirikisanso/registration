@@ -1,0 +1,54 @@
+body {
+            font-family: Arial, sans-serif;
+            background-image: url("https://s13.stc.yc.kpcdn.net/share/i/12/11199205/wr-960.webp");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px; /* Изменил ширину на 400px */
+            box-sizing: border-box;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: calc(100% - 12px);
+            padding: 6px;
+            margin-bottom: 8px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+   .success-message,
+.error-message {
+    color: blue;
+    font-weight: bold;
+    margin-top: 8px;
+    display: none;
+}
